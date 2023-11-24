@@ -82,7 +82,8 @@ jobs:
       - name: Deploy 
         shell: bash
         run: |
-          echo "Deploy STG."
+          echo "Deploy STG"
+          echo "Teste atividade"
           
   Smoketest:
     runs-on: ubuntu-latest
