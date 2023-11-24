@@ -1,0 +1,18 @@
+name: Meu Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout do Código
+      uses: actions/checkout@v2
+      
+    - name: Executar Comando de Teste
+      run: |
+        # Comandos de teste vão aqui
+        echo "Olá, mundo!"
