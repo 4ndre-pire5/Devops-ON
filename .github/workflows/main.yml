@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout do Código
-      uses: actions/checkout@v2
+    # - name: Checkout do Código
+    #   uses: actions/checkout@v2
       
     - name: Executar Comando de Teste
       run: |
